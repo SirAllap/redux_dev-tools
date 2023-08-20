@@ -1,7 +1,8 @@
-import React from 'react';
-import logo from './logo.svg';
-import { Counter } from './features/counter/Counter';
-import './App.css';
+import React from 'react'
+import logo from './logo.svg'
+import { Counter } from './features/counter/Counter'
+import './App.css'
+import UserInput from './features/input/UserInput'
 
 function App() {
   return (
@@ -9,6 +10,7 @@ function App() {
       <header className="App-header">
         <img src={logo} className="App-logo" alt="logo" />
         <Counter />
+        <UserInput />
         <p>
           Edit <code>src/App.js</code> and save to reload.
         </p>
@@ -52,7 +54,7 @@ function App() {
         </span>
       </header>
     </div>
-  );
+  )
 }
 
-export default App;
+export default App
